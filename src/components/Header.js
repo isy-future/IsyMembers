@@ -1,6 +1,6 @@
 import React from 'react';
 
-import grey from 'material-ui/colors/grey';
+// import grey from 'material-ui/colors/grey';
 import AppBar from '@material-ui/core/AppBar';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import Toolbar from '@material-ui/core/Toolbar';
@@ -11,7 +11,7 @@ function Header() {
     return (
         <React.Fragment>
             <CssBaseline />
-            <AppBar position="relative" style={{  background: grey[50] }}>
+            <AppBar position="relative" style={{  background: '#FFFFFF' }}>
                 <Toolbar>
                     <img src={ require('../img/isy-logo.png') } alt="logo" style={{ width: 80, height: 55, marginRight: 20 }}/>
                     {/* <CameraIcon className={classes.icon} /> */}
