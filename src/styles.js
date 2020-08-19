@@ -26,7 +26,7 @@ export const useStyles = makeStyles((theme) => ({
                     duration: 200// theme.transitions.duration.leavingScreen,
             }),
         '&:hover': {
-            width: '115%',
+            width: '105%',
             "& $cardMedia": {
                 paddingTop: '70.25%',
                 transition: theme.transitions.create("all", {
